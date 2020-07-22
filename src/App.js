@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import Features from "./Features/Features";
+import Parts from "./Parts/Parts";
 import Cart from "./Cart/Cart";
 
 class App extends Component {
@@ -44,7 +44,7 @@ class App extends Component {
 				<main>
 					<form className="main__form">
 						<h2>Customize your laptop</h2>
-						<Features
+						<Parts
 							selected={this.state.selected}
 							features={this.props.features}
 							handleChange={this.updateFeature}
